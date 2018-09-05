@@ -6,22 +6,22 @@
   </head>
   <body>
     <div>
-        <p><a href="https://vk.com/s.sergeenkov">Alexander Sergeenkov</p>
+        <p><a href="/">Alexander Sergeenkov</p>
         <p>It works!</p>
-        <h1><em>Что я умею:</em></h1>
+        <h1>Что я умею</h1>
     </div>
 
 {% for post in posts %}
     <div>
         <p>published: {{ post.published_date }}</p>
-        <h1><a href="https://vk.com/public170958893">{{ post.title }}</a></h1>
+        <h1><a href="/">{{ post.title }}</a></h1>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
 
     <div>
-      p>published: 04.09.2018, 22:33</p>
-      <h2><a href="https://vk.com/public170958893">My second post</a></h2>
+      <p>published: 04.09.2018, 22:33</p>
+      <h2><a href="/">My second post</a></h2>
       <p>Aeneaneu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
     </div>
   </body>
